@@ -1,0 +1,22 @@
+{
+  "name": "systemjs-issue-2092",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:joeldenning/systemjs-issue-2092.git",
+  "author": "Joel Denning <joeldenning@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "start": "serve"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "serve": "^11.3.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15"
+  }
+}
